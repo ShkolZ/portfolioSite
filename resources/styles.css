@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: rgb(49, 47, 47);
+  background-color: rgb(0, 0, 0);
   height: 60px;
   padding: 0 20px;
   margin-top: 0;
@@ -21,10 +21,11 @@ header {
 }
 
 main {
-  width: 75%;
+  width: 65%;
   margin: 20px auto;
-  background-color: #1b1a1a;
+  background-color: #242323;
   border: 2px solid black;
+  border-radius: 10px;
 }
 
 p {
@@ -40,13 +41,9 @@ section {
 }
 
 #about figure {
-  position: absolute;
-  left: 900px;
-  top: 80px;
-}
-
-#about figcaption {
-  text-align: center;
+  justify-items: center;
+  float: right;
+  margin: 0;
 }
 
 #about figure img {
@@ -54,6 +51,10 @@ section {
   max-height: 250px;
   border: 1px solid white;
   border-radius: 50%;
+}
+
+#about h2 {
+  margin: 0;
 }
 
 .project {
