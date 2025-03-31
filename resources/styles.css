@@ -1,0 +1,57 @@
+body {
+  background-color: #121212;
+  color: white;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(49, 47, 47);
+  height: 60px;
+  padding: 0 20px;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  border-bottom: 2px solid black;
+}
+
+.big {
+  font-size: 30px;
+  margin: 0;
+}
+
+main {
+  width: 75%;
+  margin: 10px auto;
+  background-color: #1b1a1a;
+  border: 2px solid black;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+article {
+  padding: 20px;
+}
+
+#about figure {
+  position: absolute;
+  left: 900px;
+  top: 70px;
+}
+
+#about figcaption {
+  text-align: center;
+}
+
+#about figure img {
+  max-width: 200px;
+  max-height: 250px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.project {
+  display: inline-flex;
+}
