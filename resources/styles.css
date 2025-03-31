@@ -22,23 +22,27 @@ header {
 
 main {
   width: 75%;
-  margin: 10px auto;
+  margin: 20px auto;
   background-color: #1b1a1a;
   border: 2px solid black;
+}
+
+p {
+  font-size: 18px;
 }
 
 h2 {
   margin-top: 0;
 }
 
-article {
+section {
   padding: 20px;
 }
 
 #about figure {
   position: absolute;
   left: 900px;
-  top: 70px;
+  top: 80px;
 }
 
 #about figcaption {
