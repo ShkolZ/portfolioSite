@@ -6,13 +6,6 @@
   border-style: solid;
 }
 
-.text-primary {
-  color: rgb(178, 167, 251);
-}
-
-.bg-secondary {
-}
-
 @keyframes slideLeft {
   to {
     transform: translateX(200px);
@@ -39,4 +32,20 @@
 
 .heading {
   @apply font-bold text-2xl;
+}
+
+.info {
+  @apply bg-[#1E1E1F99] px-4 py-1 rounded-xl text-[#9CA3AF] font-semibold hover:scale-105 duration-300 transition tracking-tight flex items-center gap-1;
+}
+
+.text-primary {
+  @apply text-[#B2A7FB];
+}
+
+.background {
+  @apply bg-[#0F0F10];
+}
+
+.small-logo {
+  @apply w-[18px] h-[18px];
 }

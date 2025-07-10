@@ -15,7 +15,6 @@ function App() {
       </section>
       <section className="lg:w-33/100 md:w-45/100 w-9/10 ">
         <Skills />
-        <Overview />
         <Contact />
       </section>
       <section className="lg:w-33/100 w-9/10 border"></section>

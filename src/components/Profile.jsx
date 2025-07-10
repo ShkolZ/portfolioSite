@@ -1,6 +1,10 @@
 import React from "react";
 import image from "../assets/profile.jpg";
-import GitHubLogo from "../assets/github.svg";
+import GitHubLogo from "../assets/skills/github.svg";
+import LangLogo from "../assets/info/globe.svg";
+import LocationLogo from "../assets/info/location.svg";
+import StudentLogo from "../assets/info/student.svg";
+import CakeLogo from "../assets/info/cake.svg";
 
 function Profile() {
   return (
@@ -17,24 +21,26 @@ function Profile() {
           </h3>
         </div>
       </div>
-      <div className="flex flex-wrap body-background w-full rounded-2xl p-3  gap-5 mb-5">
-        <div className="background p-2 rounded-3xl text-gray-400 font-semibold">
-          <img></img>
+      <div className="flex flex-wrap bg-[#0D0C0D] w-full rounded-2xl p-3 gap-5 mb-5">
+        <div className="info">
+          <img src={LangLogo} alt="languages" className="small-logo"></img>
           <p>English, Czech & Russian</p>
         </div>
-        <div className="background p-2 rounded-2xl text-gray-400 font-semibold">
-          <img></img>
+        <div className="info">
+          <img src={LocationLogo} alt="location" className="small-logo"></img>
           <p>Czechia</p>
         </div>
-        <div className="background p-2 rounded-2xl text-gray-400 font-semibold">
+        <div className="info">
+          <img src={StudentLogo} alt="student" className="small-logo" />
           <p>Student</p>
         </div>
-        <div className="background p-2 rounded-2xl text-gray-400 font-semibold">
+        <div className="info">
+          <img src={CakeLogo} alt="cake" className="small-logo" />
           <p>20y/o</p>
         </div>
       </div>
       <a href="">
-        <button className="hover:cursor-pointer hover:bg-violet-400/40 flex justify-center border-1 rounded-lg h-12 font-semibold w-full ">
+        <button className="hover:cursor-pointer flex justify-center rounded-lg h-12 font-semibold w-full bg-[#1E1E1F] hover:bg-[#1E1E1F]/80 ">
           <div className="flex justify-center gap-2 items-center">
             <img
               src={GitHubLogo}

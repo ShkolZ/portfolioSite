@@ -1,11 +1,11 @@
 import React from "react";
 import ProjectListItem from "./ProjectListItem";
-import ReactLogo from "../assets/react.svg";
-import HTMLLogo from "../assets/html.svg";
-import CssLogo from "../assets/css.svg";
-import JsLogo from "../assets/javascript.svg";
-import GitLogo from "../assets/git.svg";
-import NextLogo from "../assets/next.svg";
+import ReactLogo from "../assets/skills/react.svg";
+import HTMLLogo from "../assets/skills/html.svg";
+import CssLogo from "../assets/skills/css.svg";
+import JsLogo from "../assets/skills/javascript.svg";
+import GitLogo from "../assets/skills/git.svg";
+import NextLogo from "../assets/skills/next.svg";
 
 function Skills() {
   return (
