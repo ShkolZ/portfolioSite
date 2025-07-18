@@ -8,25 +8,16 @@
 
 @keyframes slideLeft {
   to {
-    transform: translateX(200px);
+    transform: translateX(1200px);
   }
-}
-
-.animated-card {
-  background-color: red;
-  width: 70px;
-  height: 80px;
-  animation-name: slideLeft;
-  animation-duration: 2s;
 }
 
 #animation-container {
   width: 2000px;
   display: flex;
-
-  animation-name: slideLeft;
-  animation-duration: 2s;
-  gap: 50px;
+  margin-left: -1440px;
+  animation: slideLeft 30s linear forwards;
+  gap: 25px;
   animation-iteration-count: infinite;
 }
 
@@ -48,4 +39,12 @@
 
 .small-logo {
   @apply w-[18px] h-[18px];
+}
+
+.card {
+  @apply p-6 bg-[#0F0F10] border-1 border-[#1E1E1F] mb-5 rounded-2xl;
+}
+
+.animated-card {
+  @apply w-[200px] px-1 py-1 bg-black rounded-xl border-1 border-[#1E1E1F];
 }

@@ -9,10 +9,10 @@ import NextLogo from "../assets/skills/next.svg";
 
 function Skills() {
   return (
-    <div className="p-6 background main-border mb-5 rounded-2xl">
+    <div className="card">
       <h2 className="heading">Skills</h2>
       <div className="mt-3">
-        <ul className="flex justify-between">
+        <ul className="flex justify-between ">
           <ProjectListItem image={HTMLLogo} title="HTML" />
           <ProjectListItem image={CssLogo} title="CSS" />
           <ProjectListItem image={JsLogo} title="JS" />

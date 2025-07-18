@@ -8,7 +8,7 @@ import CakeLogo from "../assets/info/cake.svg";
 
 function Profile() {
   return (
-    <div id="profile" className="p-6 background main-border mb-5 rounded-2xl">
+    <div id="profile" className="card">
       <div className="flex  mb-5 gap-4">
         <img className="w-28 h-25 rounded-2xl" src={image} alt="Profile Pic" />
         <div className="flex flex-col justify-center gap-1">
@@ -39,7 +39,7 @@ function Profile() {
           <p>20y/o</p>
         </div>
       </div>
-      <a href="">
+      <a href="https://github.com/ShkolZ">
         <button className="hover:cursor-pointer flex justify-center rounded-lg h-12 font-semibold w-full bg-[#1E1E1F] hover:bg-[#1E1E1F]/80 ">
           <div className="flex justify-center gap-2 items-center">
             <img

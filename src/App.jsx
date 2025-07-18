@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Overview from "./components/Overview";
 import Contact from "./components/Contact";
+import Information from "./components/Information";
 
 function App() {
   return (
@@ -16,8 +17,11 @@ function App() {
       <section className="lg:w-33/100 md:w-45/100 w-9/10 ">
         <Skills />
         <Contact />
+        <Information />
       </section>
-      <section className="lg:w-33/100 w-9/10 border"></section>
+      <section className="lg:w-33/100 md:w-94/100 w-9/10">
+        <Overview />
+      </section>
     </main>
   );
 }

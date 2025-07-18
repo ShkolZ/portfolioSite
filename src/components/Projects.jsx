@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <div className="p-6 background main-border mb-5 rounded-2xl">
+    <div className="card">
       <div>
         <img></img>
         <h2 className="heading">Projects</h2>
@@ -11,13 +11,31 @@ function Projects() {
       <div className="overflow-hidden">
         <div id="animation-container">
           <div className="animated-card">
-            <img></img>
+            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
           </div>
           <div className="animated-card">
-            <img></img>
+            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
           </div>
           <div className="animated-card">
-            <img></img>
+            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
+          </div>
+          <div className="animated-card">
+            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
+          </div>
+          <div className="animated-card">
+            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
+          </div>
+          <div className="animated-card">
+            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
+          </div>
+          <div className="animated-card">
+            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
+          </div>
+          <div className="animated-card">
+            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
+          </div>
+          <div className="animated-card">
+            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
           </div>
         </div>
       </div>
