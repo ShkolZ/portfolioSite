@@ -11,29 +11,38 @@ function Projects() {
       <div className="overflow-hidden">
         <div id="animation-container">
           <div className="animated-card">
+            <a href="https://pitch-up-delta.vercel.app/">
+              <img src="../../public/pitch-up.png" className="rounded-lg"></img>
+            </a>
+          </div>
+
+          <div className="animated-card">
+            <img src="portfolio.png" className="rounded-lg"></img>
+          </div>
+
+          <div className="animated-card">
             <img src="../../public/pitch-up.png" className="rounded-lg"></img>
           </div>
+
+          <div className="animated-card">
+            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
+          </div>
+
+          <div className="animated-card">
+            <img src="portfolio.png" className="rounded-lg"></img>
+          </div>
+
           <div className="animated-card">
             <img src="../../public/pitch-up.png" className="rounded-lg"></img>
           </div>
           <div className="animated-card">
             <img src="../../public/pitch-up.png" className="rounded-lg"></img>
           </div>
+
           <div className="animated-card">
-            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
+            <img src="portfolio.png" className="rounded-lg"></img>
           </div>
-          <div className="animated-card">
-            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
-          </div>
-          <div className="animated-card">
-            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
-          </div>
-          <div className="animated-card">
-            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
-          </div>
-          <div className="animated-card">
-            <img src="../../public/pitch-up.png" className="rounded-lg"></img>
-          </div>
+
           <div className="animated-card">
             <img src="../../public/pitch-up.png" className="rounded-lg"></img>
           </div>

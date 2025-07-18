@@ -6,19 +6,19 @@
   border-style: solid;
 }
 
-@keyframes slideLeft {
-  to {
-    transform: translateX(1200px);
+@keyframes slideRight {
+  0% {
+    transform: translateX(-33%);
+  }
+  100% {
+    transform: translateX(0%);
   }
 }
 
 #animation-container {
   width: 2000px;
   display: flex;
-  margin-left: -1440px;
-  animation: slideLeft 30s linear forwards;
-  gap: 25px;
-  animation-iteration-count: infinite;
+  animation: slideRight 8s linear infinite;
 }
 
 .heading {
@@ -46,5 +46,5 @@
 }
 
 .animated-card {
-  @apply w-[200px] px-1 py-1 bg-black rounded-xl border-1 border-[#1E1E1F];
+  @apply w-[400px] px-1 py-1 bg-black rounded-xl border-1 border-[#1E1E1F];
 }
